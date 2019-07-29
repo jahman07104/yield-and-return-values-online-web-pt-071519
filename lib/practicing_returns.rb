@@ -32,5 +32,5 @@ end
 
 
 require 'pry'
-hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" I love you}
+hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name} I love you"}
 
