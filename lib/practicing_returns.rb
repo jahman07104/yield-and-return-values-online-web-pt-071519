@@ -20,10 +20,10 @@
 def hello(array)
   i = 0
   collection = []
-  while 2 < array.length
+  while i < array.length
   binding.pry
     collection << yield(array[i])
-    i += 1
+    i += 2
   end
 
   collection
