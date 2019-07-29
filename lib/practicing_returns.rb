@@ -18,11 +18,11 @@
 #   |name| "Hi, #{name}" }
   
 def hello(array)
-  i = 1
+  i = 0
   collection = []
   while i < array.length
   binding.pry
-    collection << yield(array[i+1])
+    collection << yield(array[i])
     i += 1
   end
 
