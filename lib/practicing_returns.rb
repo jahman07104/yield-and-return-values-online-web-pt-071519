@@ -22,7 +22,7 @@ def hello(array)
   collection = []
   while i < array.length
   binding.pry
-    collection << yield(array[i])
+    collection << yield(array[i+1])
     i += 1
   end
 
