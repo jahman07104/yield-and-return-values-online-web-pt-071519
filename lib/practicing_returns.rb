@@ -28,7 +28,6 @@ def hello(array)
   collection
 end
 
-end
 
 require 'pry'
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
