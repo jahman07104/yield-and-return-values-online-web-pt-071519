@@ -27,7 +27,7 @@ def hello(array)
 
   collection
 end
-=======
+
 end
 
 require 'pry'
